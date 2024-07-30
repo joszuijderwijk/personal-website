@@ -19,4 +19,4 @@ Welcome to my personal website! Currently I’m [pursuing a PhD](https://www.uu.
 
 There are many things that have my interest! I particularly like electronics, building software, playing music (mainly the piano), graphic design, self-hosting stuff and watching bad movies. Primarily, this site was made to store (and share) my thoughts on topics that are interesting to me.
 
-> ⚠️ Note that this website is still a work in progress! I'm still transfering posts and features from my old [Wordpress blog](https://joszuijderwijk.nl) to this site.
+> ⚠️ Note that this website is still a work in progress! I'm still transfering posts and features from my old [Wordpress blog](https://old.joszuijderwijk.nl) to this site.
