@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://iovidius.github.io/sitemap.xml
+Sitemap: https://joszuijderwijk.nl/sitemap.xml
