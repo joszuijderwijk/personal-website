@@ -2,24 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <h3>Hi! 👋</h3>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: pf.png
+  image_circular: true # crops the image to make it circular
+  more_info:
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my personal website! Currently I’m [pursuing a PhD](https://www.uu.nl/medewerkers/AJHzuijderwijk) at the Department of Information and Computing Sciences of Utrecht University. My research is centered around the use of information technology to further an [open government](https://www.open-overheid.nl/) and is funded by the [Dutch Ministry of Infrastructure and Water Management](https://www.rijksoverheid.nl/ministeries/ministerie-van-infrastructuur-en-waterstaat).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+There are many things that have my interest! I particularly like electronics, building software, playing music (mainly the piano), graphic design, self-hosting stuff and watching bad movies. Primarily, this site was made to store (and share) my thoughts on topics that are interesting to me.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+> ⚠️ Note that this website is still a work in progress! I'm still transfering posts and features from my old [Wordpress blog](https://joszuijderwijk.nl) to this site.
