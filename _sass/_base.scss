@@ -185,6 +185,12 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  // I don't want the profile image to be too big
+  figure {
+    width: 50%;
+    margin: 0 auto 0.55em;
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
