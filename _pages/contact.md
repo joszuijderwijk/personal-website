@@ -1,7 +1,7 @@
 ---
 layout: contact
 permalink: /contact/
-title: contact
+title: Contact
 description: 
 nav: true
 nav_order: 6
