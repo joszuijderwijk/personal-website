@@ -129,7 +129,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: Welcome to my blog! This is where I'll ocassionaly post something about my (hobby) projects, usually involving electronics, IoT or computer stuff in general. Feel free to leave a comment.
+blog_description: This is where I'll ocassionaly post something about my (hobby) projects, usually involving electronics, IoT or computer stuff in general. Feel free to leave a comment.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -138,13 +138,13 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
+  repo: joszuijderwijk/personal-website # <your-github-user-name>/<your-github-repo-name>
   repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: # leave empty or specify your category_id (see https://giscus.app/)

@@ -7,4 +7,4 @@ tags:
 categories: sample-posts
 ---
 
-Just a sample post! I will remove this post once I have transferred all my (old posts)[old.joszuijderwijk.nl/blog] to this website.
+Just a sample post! I will remove this post once I have transferred all my [old posts](https://old.joszuijderwijk.nl/blog) to this website.
