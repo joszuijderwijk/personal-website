@@ -1305,3 +1305,22 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// alert boxes
+.alert {
+  p { 
+    color: var(--global-alert-text-color) !important;
+    margin-bottom: 0;
+  }
+  i{
+    margin-right: 0.5rem;
+  }
+
+}
+
+// alert box on front page
+@media only screen and (min-width: 800px) {
+  #alert-about {
+    width: 68%;
+  }
+}
