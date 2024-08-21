@@ -2,7 +2,7 @@
 layout: distill
 title: "Smart Traffic Light 2: Building the Prototype"
 date: 2021-01-27
-description: Create a miniature internet-enabled traffic light using an ESP-01s microcontroller.
+description: Creating a miniature internet-enabled traffic light using an ESP-01s microcontroller.
 tags: iot, electronics, traffic-light, diy, esp, esp-01
 categories: iot, electronics
 giscus_comments: true
