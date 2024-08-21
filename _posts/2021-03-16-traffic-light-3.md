@@ -26,7 +26,7 @@ toc:
 [![Static Badge](https://img.shields.io/badge/github%20-%20smart--traffic--light-blue?logo=github)](https://github.com/joszuijderwijk/smart-traffic-light)
 ![Static Badge](https://img.shields.io/github/stars/joszuijderwijk/smart-traffic-light)
 
-We've previously set up an IoT Framework and created a prototype traffic light. Now, let's take it to the next level by building a full-size traffic light that displays our rowing club's current rowing ban status. This upgraded version will feature:
+We've previously set up an [IoT Framework](traffic-light-1) and created a [prototype traffic light](traffic-light-3). Now, let's take it to the next level by building a full-size traffic light that displays our rowing club's current rowing ban status. This upgraded version will feature:
 
 * Various animations, including a party mode
 * Web app control
@@ -51,7 +51,7 @@ For this project, we'll need:
 * 1x Junction box
 * Installation wire
 
-I bought a full size traffic light via [Marktplaats](https://www.marktplaats.nl/) (similar to Ebay) for €110. After replacing the light bulbs with LEDs, it was ready for the next steps.
+I bought a full size traffic light via [Marktplaats](https://www.marktplaats.nl/) (similar to Ebay) for €110. After swapping out the old bulbs for LEDs, it was ready for its smart makeover.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -68,7 +68,7 @@ I bought a full size traffic light via [Marktplaats](https://www.marktplaats.nl/
 
 ### Controlling the Lights
 
-You'll probably find that the lights of your traffic light are wired in such a way that all lights turn on when you give it power. To be able to have some control over the individual lights instead of them all turning on at once, we'll use a microcontroller and relay modules. It's all very similar to the way we designed our [prototype](smart-traffic-light-2), although instead of addressing our LEDs directly, we'll be using a relay.
+You'll probably find that the lights of your traffic light are wired in such a way that all lights turn on when you give it power. To be able to have some control over the individual lights instead of them all turning on at once, we'll use a microcontroller (NodeMCU) and relay modules. It's all very similar to the way we designed our [prototype](smart-traffic-light-2), although instead of addressing our LEDs directly, we'll be using a relay.
 
 The relay module we use accepts an input (0V LOW - 5V HIGH) that is sent by our microcontroller. If you pull the input pin (**IN**) high, the terminals **NO** (normaly open) and **COM** (common) will be connected, while **COM** and **NC** (normally closed) will be connected if the input pin is low. The labels on the PCB might be in Chinese (see Figure 2) so make sure you use a multimeter to check the terminals.
 
@@ -81,7 +81,7 @@ The relay module we use accepts an input (0V LOW - 5V HIGH) that is sent by our 
     Figure 2: The Relay Module.
 </div>
 
-We'll connect everything according to the wiring diagram below. Note that the diagram also includes the power switch and the control button.
+We connected everything according to the wiring diagram below (that includes the power switch and control button). This setup gives us fine-grained control over each light. The microcontroller gets its 5V from the HiLink supply.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -93,7 +93,7 @@ We'll connect everything according to the wiring diagram below. Note that the di
 </div>
 
 ### Controller
-Let's first make the small connections. I wanted to have the NodeMCU and the relay boards all on one board. The male header pins of the relay boards faced upwards. So I desoldered them and reinstalled them the other way around.
+I wanted to have the NodeMCU and the relay boards all on one perf board. But the male header pins of the relay boards faced upwards so I desoldered them and reinstalled them the other way around.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -104,7 +104,7 @@ Let's first make the small connections. I wanted to have the NodeMCU and the rel
     Video 1: Loose connections on the relay module
 </div>
 
-Somehow that didn't go well. The new pins didn't work and I practically ruined all of my relay boards. Since I didn't want to wait for new ones, I decided to get rid of all of the control logic on the module and recreate it myself. For that purpose I used a standard BC547 transistor with a 1K ohm resistor and a 1N4007 flyback diode.
+That didn't go well... The new pins didn't work and I practically ruined all of my relay boards. Since I didn't want to wait for new ones, I decided to get rid of all of the control logic on the module and recreate it myself. For that purpose I used a standard BC547 transistor with a 1K ohm resistor and a 1N4007 flyback diode.
 
 I made it unnecessarily difficult for myself in the first place by insisting on placing all the components on one board. It's a whole lot easier to just glue the relay boards directly into the junction box. But I couldn't go back as I hadn't any spare parts laying around, so I glued the relay components to the board. The final result looked like this:
 <div class="row mt-3">
@@ -130,9 +130,8 @@ I made it unnecessarily difficult for myself in the first place by insisting on 
 The push button is connected to a GPIO and GND. Using the internal pull-up (this is done in code) we can detect whether the button is pressed.
 
 ### The Lights
-While I was working on the relay boards, my friend Marte wired up the lights according to the schematic in Figure 3.
+With the controller sorted, my friend Marte wired up the lights according to our schematic. We then carefully inserted the microcontroller into the junction box. It was a tight fit, but we managed to connect all the wires.
 
-We inserted the microcontroller into the junction box. It was a bit of a hassle to screw all of the installation wires into the terminals because of the lack of space left in the junction box.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -145,7 +144,7 @@ We inserted the microcontroller into the junction box. It was a bit of a hassle 
 <div class="caption">
     Figure 5: All of the electonics inside the traffic light
 </div>
-As you can see, the Hi-Link AC-DC module is placed outside of the box. This is definitely not the ideal way to attach the module to the case, but the traffic light is not intended for outdoor use anyway.
+As you can see, the Hi-Link AC-DC module is placed outside of the box (with the use of some good ol' duct tape). This is definitely not the ideal way to attach the module to the case, but the traffic light is not intended for outdoor use anyway.
 
 Aaaaaaaaand it works! Admittedly not after one try... I accidently swapped the green and the red light, so I had to fix that programmatically.
 <div class="row mt-3">
@@ -186,7 +185,7 @@ Since the traffic light is placed inside, I wanted to add animation effects so t
 - Off mode (all lights off)
 - On mode (all lights on)
 
-I implemented the animations as a nested array of booleans, each representing the state of one light. The _random_ animation, for example, is implemented the following way:
+I implemented the animations as a nested array of booleans, each representing the state of one light. Here's a snippet of how I implemented the random animation:
 
 ```c
 void randomAnimation(){
