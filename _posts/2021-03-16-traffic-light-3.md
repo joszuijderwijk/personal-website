@@ -34,7 +34,7 @@ We've previously set up an IoT Framework and created a prototype traffic light. 
 
 <details markdown="1">
 <summary>Manual (Dutch)</summary>
-De handleiding voor Orca vind je [hier](assets/files/stoplicht-handleiding_gelakt.pdf).
+De handleiding voor Orca vind je [hier](../../assets/files/stoplicht-handleiding_gelakt.pdf).
 </details>
 
 ## Hardware
