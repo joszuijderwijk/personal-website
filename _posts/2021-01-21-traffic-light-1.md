@@ -1,10 +1,10 @@
 ---
 layout: distill
-title: "Smart Traffic Light: Setting Up an IoT System"
+title: "Smart Traffic Light 1: Setting Up an IoT System"
 date: 2021-01-21
 description: Learn how to create an IoT network for a smart traffic light.
-tags: iot, mqtt, mosquitto, rowing, traffic-light
-categories: iot, projects
+tags: iot, mqtt, mosquitto, traffic-light
+categories: iot
 giscus_comments: true
 thumbnail: assets/img/traffic-light-diagram-1.png
 toc:
@@ -48,7 +48,6 @@ MQTT revolves around a central server called a _broker_, which manages communica
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/traffic-light-diagram-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-
 </div>
 <div class="caption">
     Figure 1: Schematic overview of the IoT network.
@@ -68,7 +67,7 @@ An important feature of MQTT is the option of *retained messages*. The broker ca
 
 In the past I've been using [CloudMQTT](https://www.cloudmqtt.com/) for experimenting, but they recently shut down their free plans (cheapest plan is now $5 per month). [MyQttHub](https://myqtthub.com/en), [HiveMQ](https://www.hivemq.com/) and [Flespi](https://flespi.com/mqtt-broker) look promising, although I've never used any of them.
 
-For our project, we'll use [Mosquitto](https://mosquitto.org/), a popular open-source MQTT broker. While there are cloud-based options available, setting up your own broker provides more control and is cheaper in the long run. Setting up your own broker is fairly easy to do, but it requires some configuration and of course your own server.
+For our project, we'll use [Mosquitto](https://mosquitto.org/), a popular open-source MQTT broker. While there are cloud-based options available, setting up your own broker provides more control and is cheaper in the long run. Setting up your own broker is fairly easy to do, but it requires some configuration and of course your own server. You can find a tutorial on how to do so using Docker [here](https://www.homeautomationguy.io/blog/docker-tips/configuring-the-mosquitto-mqtt-docker-container-for-use-with-home-assistant).
 
 
 ### Implementing Access Control
@@ -81,7 +80,7 @@ To secure our system, we'll create three user accounts with specific permissions
 
 We'll use an Access Control List (ACL) to restrict these accounts. Here's a sample ACL configuration:
 
-```plain
+```markdown
 # Admin account
 user webmaster
 topic readwrite #
@@ -101,7 +100,7 @@ topic write connection/#
 
 To integrate the rowing ban system with our MQTT network, we used the [MQTTnet](https://github.com/chkr1011/MQTTnet) library in our ASP.NET Core backend. This allows us to publish updates to the broker whenever the rowing ban status changes.
 
-Remember, you could take anything as input for your traffic light! For example, the current rowing ban of your own sports club, [kanikeenkortebroekaan.nl](https://kanikeenkortebroekaan), or just hook it up to your own smart home network.
+Remember, you could take anything as input for your traffic light! For example, it can display the current rowing ban of your own sports club, [kanikeenkortebroekaan.nl](https://kanikeenkortebroekaan.nl), or just have fun toggling it manually.
 
 ## Conclusion and Next Steps
 
@@ -113,13 +112,9 @@ We've now laid the groundwork for our smart traffic light system by setting up a
 4. Implementing access control for security;
 5. Publishing rowing ban updates to the network.
 
-In our next post, we'll build a prototype of the traffic light, bringing our IoT concept to life. Stay tuned!
-
---- 
-*This post is part of a series on building a smart traffic light. Check out the upcoming posts for the prototype build and full-size implementation!*
+In our [next post](../traffic-light-2), we'll build a prototype of the traffic light, bringing our IoT concept to life. Stay tuned!
 
 ---
-
-[^1]: The member portal ("Ledenportaal"), located at [mijn.orcaroeien.nl](mijn.orcaroeien.nl), is a private website for members of the club. It's used for boat reservations, articles et cetera.
+[^1]: The member portal ("Ledenportaal"), located at [mijn.orcaroeien.nl](https://mijn.orcaroeien.nl), is a private website for members of the club. It's used for boat reservations, articles et cetera.
 [^2]: With software like [MQTT Explorer](https://mqtt-explorer.com/) it's really easy to send test messages and have an overview of the traffic that goes through your broker
 

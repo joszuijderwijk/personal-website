@@ -129,7 +129,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: This is where I'll ocassionaly post something about my (hobby) projects, usually involving electronics, IoT or computer stuff in general. Feel free to leave a comment.
+blog_description: This is where I'll ocassionaly post something about my (hobby) projects. Feel free to leave a comment.
 permalink: /blog/:title/
 lsi: false # produce an index for related posts
 
