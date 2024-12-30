@@ -49,7 +49,7 @@ You can test if your Tautulli notifications arrive on your phone here (**Test No
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/notification-example.png" class="img-fluid rounded" style="width:50%; margin: auto; display: block;" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/notification-example.png" class="img-fluid small-img rounded" zoomable=true %}
     </div>
 </div>
 <div class="caption">
