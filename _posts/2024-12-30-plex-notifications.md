@@ -6,7 +6,7 @@ description: Get push notifications with images for your Plex setup.
 tags: dutch
 categories: tech, android, plex, tautulli
 giscus_comments: true
-thumbnail: assets/img/plex-notifications-thumb.png
+thumbnail: assets/img/plex-notification-thumb.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/plex-notification.png" class="img-fluid rounded z-depth-1" %}
@@ -49,7 +49,7 @@ You can test if your Tautulli notifications arrive on your phone here (**Test No
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/notification-example.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/notification-example.png" class="img-fluid rounded" style="width:50%; margin: auto; display: block;" zoomable=true %}
     </div>
 </div>
 <div class="caption">
