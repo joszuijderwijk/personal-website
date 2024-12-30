@@ -39,7 +39,7 @@ You can easily test if notifications arrive on your phone through the web interf
 {:start="5"}
 5. Log in to your Tautulli web interface and go to **Settings > Notification Agents**.
 6. Add a new Pushover (or Pushbullet) agent.
-7. Fill in the fields *Pushover API Token* (from step 2) and *Pushover User or Group Key* (from step 4).
+7. Fill in the fields **Pushover API Token** (from step 2) and **Pushover User or Group Key*** (from step 4).
 8. Check the **Include Poster Image** checkbox.
 9. Under **Movie Link Source**, select **IMDB**.
 9. Under **Triggers**, check the **Recently Added** checkbox.
