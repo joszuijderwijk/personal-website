@@ -19,7 +19,7 @@ Welcome to my personal website! Currently I’m [pursuing a PhD](https://www.uu.
 
 There are many things that have my interest! I particularly like electronics, building software, playing music (mainly the piano), graphic design, self-hosting stuff and watching bad movies. Primarily, this site was made to store (and share) my thoughts on topics that are interesting to me.
 
-If you'd like to get in touch, please visit my <a href="contact" contact page</a>.
+If you'd like to get in touch, please visit my [contact page](contact).
 
 <div class="alert alert-secondary" role="alert" markdown="1" id="alert-about">
 ⚠️ Note that this website is still a work in progress! I'm still transfering posts and features from my old [blog](https://old.joszuijderwijk.nl/blog) to this site.
