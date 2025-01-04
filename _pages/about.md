@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <h3>Hi! 👋</h3>
+subtitle: <h3>Hi! <span class="wave">👋</span></h3>
 
 profile:
   align: right
@@ -18,6 +18,8 @@ social: false # includes social icons at the bottom of the page
 Welcome to my personal website! Currently I’m [pursuing a PhD](https://www.uu.nl/medewerkers/AJHzuijderwijk) at the Department of Information and Computing Sciences of Utrecht University. My research is centered around the use of information technology to further an open government.
 
 There are many things that have my interest! I particularly like electronics, building software, playing music (mainly the piano), graphic design, self-hosting stuff and watching bad movies. Primarily, this site was made to store (and share) my thoughts on topics that are interesting to me.
+
+If you'd like to get in touch, please visit my <a href="contact" contact page</a>.
 
 <div class="alert alert-secondary" role="alert" markdown="1" id="alert-about">
 ⚠️ Note that this website is still a work in progress! I'm still transfering posts and features from my old [blog](https://old.joszuijderwijk.nl/blog) to this site.
