@@ -1353,4 +1353,12 @@ ninja-keys::part(ninja-input-wrapper) {
   100% { transform: rotate( 0.0deg) }
 }
 
+.device-disabled{
+  width:50px;
+  fill: #C9C9C9; 
+}
 
+.device-enabled{
+  width:50px;
+  fill: #84BC6F; 
+}
