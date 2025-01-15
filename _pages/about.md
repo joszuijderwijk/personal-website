@@ -22,4 +22,4 @@ If you'd like to get in touch, please visit my [contact page](contact).
 
 {% include alert.liquid content="⚠️ Note that this website is still a work in progress! I'm still transfering posts and features from my old [blog](https://old.joszuijderwijk.nl/blog) to this site." %}
 
-{% include iot-devices.liquid %}
+{% include iot-devices.liquid shields=false %}
