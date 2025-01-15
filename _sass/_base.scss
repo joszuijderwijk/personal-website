@@ -692,9 +692,6 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      .preview {
-      }
-
       .abbr {
         margin-bottom: 0.5rem;
 
@@ -1353,12 +1350,18 @@ ninja-keys::part(ninja-input-wrapper) {
   100% { transform: rotate( 0.0deg) }
 }
 
-.device-disabled{
+.device{
   width:50px;
-  fill: #C9C9C9; 
 }
-
+.device-disabled{
+  @extend .device;
+  filter: invert(100%) sepia(0%) saturate(2125%) hue-rotate(32deg) brightness(78%) contrast(100%);   //fill: #C9C9C9;
+}
 .device-enabled{
-  width:50px;
-  fill: #84BC6F; 
+  @extend .device;
+  filter: invert(84%) sepia(4%) saturate(4351%) hue-rotate(56deg) brightness(83%) contrast(84%);   //fill: #84BC6F;
+}
+#barrybox{
+  margin-left: 15px;
+  margin-bottom: 5px;
 }
