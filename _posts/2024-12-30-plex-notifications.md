@@ -11,7 +11,7 @@ thumbnail: assets/img/plex-notification-thumb.png
 
 {% include figure.liquid loading="eager" path="assets/img/plex-notification.png" class="img-fluid rounded z-depth-1" %}
 
-I've been using [Plex Media Server](https://www.plex.tv/media-server-downloads) for years to manage and share my movie collection. It works like a private Netflix. Super convenient, especially since major streaming services regularly remove titles (and keep asking for more money). To track statistics on my Plex server, I also run [Tautulli](https://tautulli.com/). Like many other Plex users, I run systems such as Radarr and Sonarr that automatically add movies or series to my collection. Of course, you want to get notifications when this happens, like "_X_ has just been added! 🍿". (Or have a physical hotel bell ring! 🛎️, see this [blogpost](https://archive.ph/ZThql))
+I've been using [Plex Media Server](https://www.plex.tv/media-server-downloads) for years to manage and share my movie collection. It works like a private Netflix. Super convenient, especially since major streaming services regularly remove titles (and keep asking for more money). To track statistics on my Plex server, I also run [Tautulli](https://tautulli.com/). Like many other Plex users, I run systems such as Radarr and Sonarr that automatically add movies or series to my collection. Of course, you want to get notifications when this happens, like for example "The Room (2003) has just been added! 🍿" (or even have a physical hotel bell ring! 🛎️, see this [blogpost](https://archive.ph/ZThql))
 
 I couldn't get notifications with images working properly using built-in functionality of the Tautulli app. Some others online had the same issue, so in early 2021, I wrote an [article](https://archive.is/pmH6P) about how to build this feature yourself. For that, I used FireNotify, the OMDb API, Node-RED, and MQTT. Let's say that's a bit overkill. In this article, I'll provide a simpler option to achieve this without all that complexity using notification services. 
 
@@ -24,7 +24,7 @@ Specifically, we want to set up push notifications on Android that display both 
 
 * **Pushover** costs a one-time fee of $5 per platform with a limit of 10,000 messages per month per app. It supports more operating systems (Android, iOS, and Chrome) and has additional options like custom sounds and priorities, such as messages that keep repeating until you acknowledge them.
 
-The good news is that both are integrated with Tautulli, so it depends on your preference which one you use. If you have an Android phone and stay under 500 notifications per month, Pushbullet is the free option. I use Pushover because I want to use it for services other than Tautulli as well.
+The good news is that both are integrated with Tautulli, so it depends on your preference which one you use. If you have an Android phone and stay under 500 notifications per month, Pushbullet is the free option. I use Pushover because I might want to use more notifications in the future.
 
 ## Set-up
 We only need to follow a few simple steps: installing Pushover and connecting it to Tautulli.
@@ -49,7 +49,7 @@ You can test if your Tautulli notifications arrive on your phone here (**Test No
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/notification-example.png" class="img-fluid small-img rounded" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/notification-example.png" class="img-fluid small-img rounded" zoomable=false %}
     </div>
 </div>
 <div class="caption">
