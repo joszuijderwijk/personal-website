@@ -70,13 +70,6 @@ Just for fun, I wanted the option to control the bell easily by phone (primarily
 
 I filled in my broker's details and hooked up a button block to publish "tring" to `bell/input` (that's the command the bell listens for) and a text block to subscribe to the `connection/bell` topic (which then displays "0" as "OFFLINE" and "1" as "ONLINE").
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="../../assets/video/bell.mp4" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -108,6 +101,6 @@ You can see the final product in action below!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid width="100%" path="../../assets/video/bell.mp4" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/bell.mp4" class="img-fluid small-img rounded z-depth-1" controls=true %}
     </div>
 </div>
