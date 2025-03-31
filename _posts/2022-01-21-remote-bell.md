@@ -20,9 +20,9 @@ A short "tinggg" is a perfect indication that something has been done, so I star
 
 I found a blogpost by [Aaron Parecki](https://aaronparecki.com/2017/11/13/5/kickstarter-desk-bell) in which he describes exactly the thing I had in mind! He uses his automated bell for Kickstarter pledge alerts, so that's more or less the same use case. I also found a video by Jeff Geerling, in which he builds a 'bell slapper'.
 
-{% include video.liquid path="https://www.youtube.com/embed/Etr7uIL9spg" class="img-fluid rounded z-depth-1" %}
+{% include video.liquid width="50%" height="100%" path="https://www.youtube.com/embed/Etr7uIL9spg" class="img-fluid rounded z-depth-1" %}
 
-I wanted my bell to (1) still be completely usable and (2) have no overly noticable changes. Jeff Geerlings solution failed to meet both requirements. Aaron Parecki's solution only met the first, but still requires a huge box on which the bell is mounted. If I could lose the box it'd be perfect.
+I wanted my bell to (1) still be completely usable and (2) have no overly noticable changes. Geerlings solution does not meet those requirements and Aaron Parecki's solution only meets the first, but still requires a huge box on which the bell is mounted. If I could lose the box it'd be perfect.
 
 ## Hardware
 
@@ -76,24 +76,38 @@ I filled in my broker's details and hooked up a button block to publish "tring" 
     </div>
 </div>
 
-![MQTT Dashboard](/assets/img/mqtt-dashboard.jpeg)
-*Figure 2: MQTT Dashboard*
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" width="50%" path="assets/img/mqtt-dashboard.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Dashboard in <i>MQTT Dash</i>
+</div>
 
 At last, I hooked the bell up to my exisiting Node-RED flow that handles the notifications for new media on my Plex server. The red box in Figure 3 indicates the flow that is responsible for the bell.
 
-![Adjusted Node-RED Flow](/assets/img/flow-2.png)
-*Figure 3: Adjusted Node-RED Flow*
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/flow-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Adjusted Node-RED Flow
+</div>
 
 You can see the final product in action below!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/tXk-c-Hw8Pc" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid width="50%" path="https://www.youtube.com/embed/tXk-c-Hw8Pc" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="../../assets/video/bell.mp4" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid width="100%" path="../../assets/video/bell.mp4" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
