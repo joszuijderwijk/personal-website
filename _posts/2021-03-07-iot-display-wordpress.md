@@ -23,7 +23,7 @@ As a proof of concept, I wanted to display the current state of my coffee machin
 - Change its appearance in real-time based on the coffee machine's state  
 
 <div class="alert alert-primary" role="alert" markdown="1">
-<i class="fa fa-info-circle fa-xl"></i> While this post describes my original WordPress implementation, my current website uses Jekyll with a different approach to display IoT device states. I plan to write about this Jekyll implementation in a future post.
+ℹ️ While this post describes my original WordPress implementation, my current website uses Jekyll with a different approach to display IoT device states. I plan to write about this Jekyll implementation in a future post.
 </div>
 
 ## Two Approaches: Modify a Plugin or Use a Bridge  
