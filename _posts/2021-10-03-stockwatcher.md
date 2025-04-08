@@ -6,11 +6,11 @@ description: Display stocks using an RGB LED.
 tags: rgb, stocks, iot, esp-01
 categories: electronics
 giscus_comments: true
-thumbnail: assets/img/bierklok-thumb.png
+thumbnail: assets/img/stockwatcher-thumb.png
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-{% include figure.liquid loading="eager" path="assets/img/bierklok-header.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/stockwatcher-header.png" class="img-fluid rounded z-depth-1" %}
 [![Static Badge](https://img.shields.io/badge/github-StockWatcher-blue?logo=github)](https://github.com/joszuijderwijk/StockWatcher)
 
 Instead of F5'ing my stock portfolio app, I wanted to have an unobtrusive indicator to show how well my stocks were doing. Therefore I started building this small project consisting of an RGB LED and an ESP-01. It's a really simple setup, but it does the job well! The RGB's brightness represents the percentual change of the stock's price compared to the previous close.
