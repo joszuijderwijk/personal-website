@@ -8,8 +8,6 @@ categories: electronics
 giscus_comments: true
 thumbnail: assets/img/stockwatcher-thumb.png
 ---
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
 {% include figure.liquid loading="eager" path="assets/img/stockwatcher-header.png" class="img-fluid rounded z-depth-1" %}
 [![Static Badge](https://img.shields.io/badge/github-StockWatcher-blue?logo=github)](https://github.com/joszuijderwijk/StockWatcher)
 
@@ -43,15 +41,15 @@ The result looks like this:
 ## Software
 
 ### Brightness
-Using the `analogWrite()` function, a PWM signal is sent to a pin emulating an analog value. The range goes from 0 (off) to 255 (fully bright). I picked <span style="color:red;">**-2.0%**</span> to <span style="color:green;">**+2.0%**</span> to be the corresponding percentages to (0, 255). That is, the red light will be fully bright at a 2% loss. At 0%, both the red and the green light will be off.
+Using the `analogWrite()` function, a PWM signal is sent to a pin emulating an analog value. The range goes from 0 (off) to 255 (fully bright). I picked <span style="color:red;">-2.0%</span> to <span style="color:green;">+2.0%</span> to be the corresponding percentages to (0, 255). That is, the red light will be fully bright at a 2% loss. At 0%, both the red and the green light will be off.
 
-The human perception of brightness of an LED tends to be exponential rather than linear. That means we cannot just multiply the percentage with 255. Instead, I used the following function:
+The human perception of brightness of an LED tends to be exponential rather than linear. That means we cannot just multiply the percentage with 255. Instead, I used the following equation:
 
 $$
 y = 2^{\frac{x}{r}} - 1
 $$
 
-with $x$ the step of the fade, $y \in [0, 255]$ the analog value, and $r$ a constant based on the number of steps and the required output. See [this blogpost](https://diarmuid.ie/blog/pwm-exponential-led-fading-on-arduino-or-other-platforms/) for a more detailed explanation. To represent the values of both the red and green LED in a single int, I let it range from (-255, 255).
+with $$x$$ the step of the fade, $$y \in [0, 255]$$ the analog value, and $$r$$ a constant based on the number of steps and the required output. See [this blogpost](https://diarmuid.ie/blog/pwm-exponential-led-fading-on-arduino-or-other-platforms/) for a more detailed explanation. To represent the values of both the red and green LED in a single int, I let it range from (-255, 255).
 
 ### Fading animations
 
