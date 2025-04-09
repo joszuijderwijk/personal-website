@@ -21,14 +21,14 @@
 
 ## Recommended Approach
 
-The recommended approach for using **al-folio** is to first create your own site using the template with as few changes as possible, and only when it is up and running customize it however you like. This way it is easier to pinpoint what causes a potential issue in case of a bug. The minimum steps required to create your own site are:
+The recommended approach for using **al-folio** is to first create your own site using the template with as few changes as possible, and only when it is up and running customize it however you like. This way it is easier to pinpoint what causes a potential issue in case of a bug. The minimum steps required to create your own site are ([video tutorial here](assets/video/tutorial_al_folio.mp4)):
 
 1. Create a new repository using this template. For this, click on [Use this template -> Create a new repository](https://github.com/new?template_name=al-folio&template_owner=alshedivat) above the file list. If you plan to upload your site to `<your-github-username>.github.io`, note that the name of your repository :warning: **MUST BE** :warning: `<your-github-username>.github.io` or `<your-github-orgname>.github.io`, as stated in the [GitHub pages docs](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
 2. In this new repository, go to `Settings -> Actions -> General -> Workflow permissions` and give `Read and write permissions` to GitHub Actions.
-3. Open file `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` **empty** (do NOT delete it).
-4. Wait until the GitHub actions finish (check your repository **Actions** tab). Now, in addition to the master branch, your repository has a newly built gh-pages branch.
+3. Open file `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` **empty** (do NOT delete it), as `baseurl:`.
+4. Wait until the GitHub action with subtitle `Deploy site` finishes (check your repository **Actions** tab), which takes ~4 min. Now, in addition to the `master` branch, your repository has a newly built `gh-pages` branch.
 5. Finally, in the repository page go to `Settings -> Pages -> Build and deployment`, make sure that `Source` is set to `Deploy from a branch` and set the branch to `gh-pages` (NOT to master).
-6. Wait until the GitHub actions finish (check your repository **Actions** tab), then simply navigate to `https://<your-github-username>.github.io` in your browser. At this point you should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/).
+6. Wait until the GitHub action `pages-build-deployment` finishes (check your repository **Actions** tab), which takes ~45s, then simply navigate to `https://<your-github-username>.github.io` in your browser. At this point you should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/).
    After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:
 
 ```bash
@@ -184,38 +184,7 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 ## Upgrading from a previous version
 
-If you installed **al-folio** as described above, you can configure a [GitHub action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme.
-
-Go to Settings -> Actions -> General -> Workflow permissions, give Read and write permissions to GitHub Actions, check "Allow GitHub Actions to create and approve pull requests", and save your changes.
-
-Then go to Actions -> New workflow -> set up a workflow yourself, setup the following workflow and commit your changes:
-
-```yaml
-name: Sync from template
-on:
-  # cronjob trigger
-  schedule:
-    - cron: "0 0 1 * *"
-  # manual trigger
-  workflow_dispatch:
-jobs:
-  repo-sync:
-    runs-on: ubuntu-latest
-    steps:
-      # To use this repository's private action, you must check out the repository
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_repo_path: alshedivat/al-folio
-          upstream_branch: master
-```
-
-You will receive a pull request within your repository if there are some changes available in the template.
-
-Another option is to manually update your code by following the steps below:
+If you installed **al-folio** as described above, you can manually update your code by following the steps below:
 
 ```bash
 # Assuming the current directory is <your-repo-name>
