@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 subtitle: <h3>Hi! <span class="wave">👋</span></h3>
 profile:
