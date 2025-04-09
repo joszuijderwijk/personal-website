@@ -18,6 +18,10 @@ manage_gemfile_lock() {
 
 start_jekyll() {
     manage_gemfile_lock
+    
+    # Add this line to install all dependencies, including Git-based ones
+    bundle install --no-cache
+    
     bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
 }
 
