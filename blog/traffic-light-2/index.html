@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Smart Traffic Light 2: Building the Prototype | Jos Zuijderwijk </title> <meta name="author" content="Jos Zuijderwijk"> <meta name="description" content="Creating a miniature internet-enabled traffic light using an ESP-01s microcontroller."> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/favicon.png?c754f1480f70868e3d1156aa95244266"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://joszuijderwijk.nl/blog/traffic-light-2/"> <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+<!DOCTYPE html> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Smart Traffic Light 2: Building the Prototype | Jos Zuijderwijk </title> <meta name="author" content="Jos Zuijderwijk"> <meta name="description" content="Creating a miniature internet-enabled traffic light using an ESP-01s microcontroller."> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/favicon.png?c754f1480f70868e3d1156aa95244266"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://joszuijderwijk.nl/blog/traffic-light-2/"> <script src="/assets/js/theme.js?9cfdafb24d1b63153ff722fd87668f85"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
   </script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script type="text/javascript">
       window.MathJax = {
@@ -437,7 +437,7 @@
               window.location.href = "/blog/lenker/";
             
           },
-        },{id: "news-my-new-site-is-online-as-you-can-clearly-see-it-is-still-a-work-in-progress-i-am-planning-to-move-the-content-from-my-old-website-https-old-joszuijderwijk-nl-to-this-site-at-some-point",
+        },{id: "news-my-new-site-is-online-as-you-can-clearly-see-it-is-still-a-work-in-progress-i-am-planning-to-move-the-content-from-my-old-website-https-archive-is-2ddtb-to-this-site-at-some-point",
               title: 'My new site is online! As you can clearly see, it is still...',
               description: "",
               section: "News",},{id: "news-i-39-ve-moved-all-my-old-blog-posts-to-this-site-and-i-39-m-planning-to-start-adding-new-projects-that-i-haven-39-t-documented-yet-i-39-m-also-planning-to-add-more-content-related-to-my-scientific-research",
@@ -447,7 +447,7 @@
               title: 'Sample project',
               description: "Just a sample project",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/first-project/";
+                  window.location.href = "/projects/2024-08-07-first-project/";
                 },},{
             id: 'socials-orcid',
             title: 'ORCID',
@@ -461,6 +461,13 @@
             section: 'Socials',
             handler: () => {
               window.open("https://scholar.google.com/citations?user=f7SM9VYAAAAJ", "_blank");
+            },
+          },{
+            id: 'socials-researchgate',
+            title: 'ResearchGate',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://www.researchgate.net/profile/Jos-Zuijderwijk/", "_blank");
             },
           },{
             id: 'socials-github',
