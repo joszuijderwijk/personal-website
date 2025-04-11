@@ -11,6 +11,7 @@ thumbnail: assets/img/kortebroek-thumb.png
 
 {% include figure.liquid loading="eager" path="assets/img/kortebroek-header.png" class="img-fluid rounded z-depth-1" %}
 [![Static Badge](https://img.shields.io/badge/github-kanikeenkortebroekaan-blue?logo=github)](https://github.com/joszuijderwijk/kanikeenkortebroekaan)
+![Static Badge](https://img.shields.io/github/stars/joszuijderwijk/kanikeenkortebroekaan)
 
 De lentedagen breken langzamerhand weer aan. De zon begint voorzichtig te stralen, de bomen krijgen weer wat kleur en de korte broeken beginnen zo zoetjes aan hun plek in de kledingkast op te eisen.
 

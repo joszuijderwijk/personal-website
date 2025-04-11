@@ -13,6 +13,7 @@ mermaid:
 ---
 {% include figure.liquid loading="eager" path="assets/img/stef-header.png" class="img-fluid rounded z-depth-1" %}
 [![Static Badge](https://img.shields.io/badge/github-StefStuntpiloot-blue?logo=github)](https://github.com/joszuijderwijk/StefStuntpiloot)
+![Static Badge](https://img.shields.io/github/stars/joszuijderwijk/StefStuntpiloot)
 
 Stef Stuntpiloot (or [Loopin' Louie](https://en.wikipedia.org/wiki/Loopin%27_Louie)) is a fun game and (at least in the Netherlands) also popular among students. I got a copy of this boardgame as a birthday present. Stef runs on 2AA batteries (+3V), which is not terribly fast. I thought it might be fun to give him a little boost. In this blogpost I'll give a description of what I did.
 
