@@ -1,14 +1,33 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
+
 // Toggle through light, dark, and system theme settings.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
+    pJSDom[0].pJS.particles.color.value = '#b71c1c';
+    pJSDom[0].pJS.particles.line_linked.color = '#b71c1c';
+    pJSDom[0].pJS.fn.particlesRefresh();
     setThemeSetting("light");
   } else if (themeSetting == "light") {
     setThemeSetting("dark");
+    pJSDom[0].pJS.particles.color.value = '#ffffff';
+    pJSDom[0].pJS.particles.line_linked.color = '#ffffff';
+    pJSDom[0].pJS.fn.particlesRefresh();
   } else {
+    const previousTheme = determineComputedTheme();
     setThemeSetting("system");
+    const systemTheme = determineComputedTheme();
+    if (systemTheme !== previousTheme) {
+      if (systemTheme == "dark") {
+        pJSDom[0].pJS.particles.color.value = '#ffffff';
+        pJSDom[0].pJS.particles.line_linked.color = '#ffffff';
+      } else {
+        pJSDom[0].pJS.particles.color.value = '#b71c1c';
+        pJSDom[0].pJS.particles.line_linked.color = '#b71c1c';
+      }
+      pJSDom[0].pJS.fn.particlesRefresh();
+    }
   }
 };
 
