@@ -1380,3 +1380,10 @@ ninja-keys::part(ninja-input-wrapper) {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+// Preview images for bibliography not too big on small screens
+@media (max-width: 576px) {
+  .preview {
+    width: 33%;
+  }
+}
