@@ -5,7 +5,7 @@ permalink: /
 subtitle: <h3>Hi! <span class="wave">👋</span></h3>
 profile:
   align: right
-  image: pf.png
+  image: pf.jpg
   image_circular: true # crops the image to make it circular
   more_info:
 
