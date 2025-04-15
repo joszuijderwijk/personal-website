@@ -30,3 +30,10 @@
     data-code="{{ site.pirsch_analytics }}"
   ></script>
 {% endif %}
+{% if site.enable_umami_analytics %}
+  <script
+  defer
+  src="{{ site.umami_host_url }}"
+  data-website-id="{{ site.umami_analytics }}"
+></script>
+{% endif %}
