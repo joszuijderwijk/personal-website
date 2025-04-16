@@ -3,7 +3,12 @@ layout: post
 title: StockWatcher
 date: 2021-10-03
 description: Display stocks using an RGB LED.
-tags: rgb, stocks, iot, esp-01
+tags:
+- rgb
+- stocks
+- iot
+- esp
+- esp-01
 categories: electronics
 giscus_comments: true
 thumbnail: assets/img/stockwatcher-thumb.png

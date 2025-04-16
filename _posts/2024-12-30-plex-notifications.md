@@ -3,7 +3,10 @@ layout: post
 title: Image Push Notifications for Plex 
 date: 2024-12-30
 description: Get push notifications with images for your Plex setup.
-tags: android, plex, tautulli
+tags:
+- android
+- plex
+- tautulli
 categories: software
 giscus_comments: true
 thumbnail: assets/img/plex-notification-thumb.png

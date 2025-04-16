@@ -3,7 +3,11 @@ layout: post
 title: Stef Stuntpiloot (Loopin’ Louie)
 date: 2022-11-14
 description: Modding Loopin’ Louie.
-tags: arduino, beer, game
+tags:
+- arduino
+- arduino-nano
+- beer
+- game
 categories: electronics
 giscus_comments: true
 thumbnail: assets/img/stef-thumb.png

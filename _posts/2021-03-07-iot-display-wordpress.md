@@ -3,7 +3,10 @@ layout: post
 title: Display the state of your IoT Device in WordPress
 date: 2021-03-23
 description: Display real-time IoT device status in WordPress using MQTT and Node-RED.
-tags: iot, wordpress, mqtt
+tags:
+- iot
+- wordpress
+- mqtt
 categories: software
 giscus_comments: true
 thumbnail: assets/img/iot-wp-thumb.png

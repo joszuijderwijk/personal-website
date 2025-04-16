@@ -3,7 +3,9 @@ layout: post
 title: kanikeenkortebroekaan.nl voor Rainmeter
 date: 2021-04-20
 description: Kan je een korte broek aan?
-tags: rainmeter, dutch
+tags:
+- rainmeter
+- dutch
 categories: software
 giscus_comments: true
 thumbnail: assets/img/kortebroek-thumb.png

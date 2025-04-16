@@ -3,7 +3,11 @@ layout: distill
 title: "Smart Traffic Light 1: Setting Up an IoT System"
 date: 2021-01-21
 description: Setting up an IoT network for a smart traffic light.
-tags: iot, mqtt, mosquitto, traffic-light
+tags:
+- iot
+- mqtt
+- mosquitto
+- traffic-light
 categories: electronics
 giscus_comments: true
 thumbnail: assets/img/traffic-light-diagram-1.png

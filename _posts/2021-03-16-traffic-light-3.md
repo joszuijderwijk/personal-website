@@ -3,7 +3,11 @@ layout: distill
 title: "Smart Traffic Light 3: Full version"
 date: 2021-03-16
 description: Building a Full-Size Smart Traffic Light.
-tags: iot, electronics, traffic-light, diy, esp8266
+tags:
+- iot
+- traffic-light
+- esp
+- esp8266
 categories: electronics
 giscus_comments: true
 thumbnail: assets/img/full-traffic-light-thumb.png

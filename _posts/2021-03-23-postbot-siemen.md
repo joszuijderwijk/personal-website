@@ -3,7 +3,10 @@ layout: post
 title: Postbot Siemen
 date: 2021-03-23
 description: Een Twitterbot gebaseerd op Postbode Siemen.
-tags: dutch, gesodemieter
+tags:
+- dutch
+- gesodemieter
+- twitter
 categories: software
 giscus_comments: true
 thumbnail: assets/img/siemen-thumb.png
