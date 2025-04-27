@@ -31,9 +31,17 @@
   ></script>
 {% endif %}
 {% if site.enable_umami_analytics %}
-  <script
-  defer
-  src="{{ site.umami_host_url }}"
-  data-website-id="{{ site.umami_analytics }}"
-></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+        const script = document.createElement('script');
+        script.src = "{{ site.umami_host_url }}";
+        script.setAttribute('data-website-id', "{{ site.umami_analytics }}");
+        script.async = true;
+        script.defer = true;
+        script.onerror = () => console.warn('Umami script failed.');
+        document.head.appendChild(script);
+      }, 5000);
+    });
+  </script>
 {% endif %}
