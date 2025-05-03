@@ -1,0 +1,7 @@
+---
+layout: post
+date: 2025-5-3 22:20:00
+inline: true
+related_posts: false
+---
+Our paper was accepted at [EGOV'25](https://dgsociety.org/egov-2025/)! <img src="../assets/img/at.png" alt="🇦🇹" style="width: 20px; height: 20px;">
