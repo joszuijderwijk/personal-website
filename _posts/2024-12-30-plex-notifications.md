@@ -14,12 +14,15 @@ thumbnail: assets/img/plex-notification-thumb.png
 
 {% include figure.liquid loading="eager" path="assets/img/plex-notification.png" class="img-fluid rounded z-depth-1" %}
 
-I’ve been using [Plex Media Server](https://www.plex.tv/media-server-downloads) for years to manage and stream my personal movie collection — it’s basically my own private Netflix. Super convenient, especially since major streaming services regularly remove titles (and keep asking for more money). To keep an eye on stats like what’s being watched and by whom, I also run [Tautulli](https://tautulli.com/). Like many Plex users, I use tools like [Radarr](https://radarr.video/) and [Sonarr](https://sonarr.tv/) to help organize and automatically track new content I’ve added from my physical media or other legal sources. It’s fun to get instant notifications when something shows up — like “The Room (2003) has just been added! 🍿” (or even trigger a real hotel bell to ring! 🛎️ Check out this [blogpost](../bell)).
-
+I’ve been using [Plex Media Server](https://www.plex.tv/media-server-downloads) for years to manage and stream my personal movie collection — it’s basically my own private Netflix. Super convenient! To keep an eye on stats like what’s being watched and by whom, I also run [Tautulli](https://tautulli.com/). Like many Plex users, I use tools like [Radarr](https://radarr.video/) and [Sonarr](https://sonarr.tv/) to help organize and automatically track new content I’ve added from my physical media or other legal sources. It’s fun to get instant notifications when something shows up — like The Room (2003) has just been added! 🍿” (or even trigger [a real hotel bell](../bell) to ring! 🛎️).
 
 I couldn't get notifications with images working properly using built-in functionality of the Tautulli app. Some others online had the same issue, so in early 2021, I wrote an [article](https://archive.is/pmH6P) about how to build this feature yourself. For that, I used FireNotify, the OMDb API, Node-RED, and MQTT. Let's say that's a bit overkill. In this article, I'll provide a simpler option to achieve this without all that complexity using notification services. 
 
 Specifically, we want to set up push notifications on Android that display both poster art and titles whenever new media is added to the Plex library. We'll accomplish this using just two tools: Tautulli and a service called _Pushover_. As a bonus, Pushover can include IMDb links directly in the notifications!
+
+<div class="alert alert-primary" role="alert" markdown="1">
+ℹ️ Since publishing this guide, Plex [has introduced](https://support.plex.tv/articles/push-notifications/) native push notifications for its mobile apps, allowing users to receive alerts for events like new media additions, playback starts, and server maintenance tasks. However, this feature requires an active Plex Pass subscription and offers less flexibility than our set-up.
+</div>
 
 ## Pushover vs Pushbullet
 [Pushover](https://pushover.net/) is a system that lets you easily send real-time push notifications to Android, iPhone/iPad, and Desktop Browser clients. [Pushbullet](https://www.pushbullet.com/) offers a similar service. Here's a quick comparison:
@@ -54,6 +57,6 @@ You can test if your Tautulli notifications arrive on your phone here (**Test No
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/notification-example.png" class="img-fluid small-img rounded" zoomable=true width="50%" %}
-    </div>
+    </div><br>
     <span><em>An example of a notification.</em></span>
 </div>
