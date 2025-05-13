@@ -34,6 +34,7 @@ I was the (co-)supervisor of several students in their thesis projects at Utrech
 2. **Bastiaan van Gilst** (2024): "Comparing Location-Specific Factors in Digital Adoption at Dutch Prisons", MSc thesis
 
 
-<!--
-### Invited Talks
--->
+
+###  Talks
+* Invited workshop, "TAPAS op tafel: anti-patronen blootleggen voor een transparante informatiehuishouding", [Werkconferentie Open Overheid](https://www.rijksorganisatieodi.nl/actueel/activiteiten/2025/05/21/werkconferentie-open-overheid), I-Partnerschap, The Hague, May, 2025
+
