@@ -60,7 +60,7 @@ Beyond media, these services handle everything from networking to automation.
 
 #### Static websites
 
-I've also got a few websites running, e.g., [ledlijstje.nl](https://ledlijstje.nl), [barrybox.nl](https://barrybox.nl), [kratjes.net](https://kratjes.net), each using its own nginx/php container (or using Nginx Proxy Manager).
+I've also got a few websites running, e.g., [ledlijstje.nl](https://ledlijstje.nl), [barrybox.nl](https://barrybox.nl), [kratjes.net](https://kratjes.net), each using their own nginx/php container (or using Nginx Proxy Manager).
 
 ---
 
