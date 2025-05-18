@@ -46,7 +46,7 @@ My media server setup consists of several interconnected services:
 
 #### Other services
 
-Beyond meida, these services handle everything from networking to automation.
+Beyond media, these services handle everything from networking to automation.
 
 | Service | Description |
 |---------|-------------|
