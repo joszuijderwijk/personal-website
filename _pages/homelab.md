@@ -50,7 +50,7 @@ Beyond media, these services handle everything from networking to automation.
 
 | Service | Description |
 |---------|-------------|
-| [Nextcloud](https://github.com/nextcloud) | My own cloud storage solution for files, contacts, and calendars |
+| [Nextcloud](https://github.com/nextcloud) | Private DropBox |
 | [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Makes all containers accessible with proper SSL certificates |
 | [Node-RED](https://github.com/node-red/node-red) | For home automation flows |
 | [Umami](https://github.com/umami-software/umami) | Privacy-focused analytics for my websites |
