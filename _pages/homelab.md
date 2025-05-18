@@ -37,10 +37,10 @@ My media server setup consists of several interconnected services:
 | [Radarr](https://github.com/linuxserver/docker-radarr) | Manages my movies |
 | [Sonarr](https://github.com/linuxserver/docker-sonarr) | Manages my series |
 | [Readarr](https://github.com/linuxserver/docker-readarr) | Manages my e-books |
-| [Bazarr](https://github.com/linuxserver/docker-bazarr) | Automatically downloads subtitles |
+| [Bazarr](https://github.com/linuxserver/docker-bazarr) | Manages subtitles |
 | [Calibre](https://github.com/linuxserver/docker-calibre) + [Calibre-Web](https://github.com/linuxserver/docker-calibre-web) | For accessing my e-books |
-| [Tautulli](https://github.com/linuxserver/docker-tautulli) | Stats and monitoring for my Plex server |
-| [SABnzbd](https://github.com/linuxserver/docker-sabnzbd) | My Usenet downloader |
+| [Tautulli](https://github.com/linuxserver/docker-tautulli) | Stats for Plex |
+| [SABnzbd](https://github.com/linuxserver/docker-sabnzbd) | Usenet downloader |
 | [Prowlarr](https://github.com/linuxserver/docker-prowlarr) | Manages indexers for the *arr apps |
 | [qBittorrentVPN](https://github.com/MarkusMcNugen/docker-qBittorrentvpn) | For torrent downloads (with built-in VPN protection) |
 
@@ -51,12 +51,12 @@ Beyond media, these services handle everything from networking to automation.
 | Service | Description |
 |---------|-------------|
 | [Nextcloud](https://github.com/nextcloud) | Personal DropBox |
-| [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Makes all containers accessible with proper SSL certificates |
-| [Node-RED](https://github.com/node-red/node-red) | For home automation flows |
+| [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Network configuration |
+| [Node-RED](https://github.com/node-red/node-red) | Home automation flows |
 | [Umami](https://github.com/umami-software/umami) | Privacy-focused analytics for my websites |
-| [Mosquitto](https://github.com/eclipse-mosquitto/mosquitto) | For home automation communication (MQTT broker)|
-| [Watchtower](https://github.com/containrrr/watchtower) | Automatically keeps all my containers updated |
-| [phpMyAdmin](https://github.com/phpmyadmin/docker) | For database management |
+| [Mosquitto](https://github.com/eclipse-mosquitto/mosquitto) | Home automation communication (MQTT broker)|
+| [Watchtower](https://github.com/containrrr/watchtower) | Updates containers |
+| [phpMyAdmin](https://github.com/phpmyadmin/docker) | Manages databases |
 
 #### Static websites
 
