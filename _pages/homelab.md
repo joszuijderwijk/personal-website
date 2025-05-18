@@ -39,7 +39,7 @@ My media server setup consists of several interconnected services:
 | [Readarr](https://github.com/linuxserver/docker-readarr) | Manages my e-books |
 | [Bazarr](https://github.com/linuxserver/docker-bazarr) | Automatically downloads subtitles |
 | [Calibre](https://github.com/linuxserver/docker-calibre) + [Calibre-Web](https://github.com/linuxserver/docker-calibre-web) | For accessing my e-books |
-| [Tautulli](https://github.com/linuxserver/docker-tautulli) | Provides stats and monitoring for my Plex server |
+| [Tautulli](https://github.com/linuxserver/docker-tautulli) | Stats and monitoring for my Plex server |
 | [SABnzbd](https://github.com/linuxserver/docker-sabnzbd) | My Usenet downloader |
 | [Prowlarr](https://github.com/linuxserver/docker-prowlarr) | Manages indexers for the *arr apps |
 | [qBittorrentVPN](https://github.com/MarkusMcNugen/docker-qBittorrentvpn) | For torrent downloads (with built-in VPN protection) |
@@ -50,7 +50,7 @@ Beyond media, these services handle everything from networking to automation.
 
 | Service | Description |
 |---------|-------------|
-| [Nextcloud](https://github.com/nextcloud) | Private DropBox |
+| [Nextcloud](https://github.com/nextcloud) | Personal DropBox |
 | [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Makes all containers accessible with proper SSL certificates |
 | [Node-RED](https://github.com/node-red/node-red) | For home automation flows |
 | [Umami](https://github.com/umami-software/umami) | Privacy-focused analytics for my websites |
