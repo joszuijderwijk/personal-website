@@ -1387,3 +1387,47 @@ ninja-keys::part(ninja-input-wrapper) {
     width: 33%;
   }
 }
+
+
+/* Custom table padding options */
+
+.bootstrap-table {
+  background-color: rgba(var(--global-text-color-light-rgb, 130, 130, 130), 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  color: var(--global-text-color);
+  margin-bottom: 1rem;
+}
+
+/* Table head */
+.bootstrap-table thead th {
+  background-color: rgba(var(--global-theme-color), 1);
+  color: var(--global-hover-text-color);
+  font-weight: 600;
+  border-bottom: 2px solid var(--global-divider-color);
+}
+
+/* Zebra striping for readability */
+.bootstrap-table tbody tr:nth-child(odd) {
+  background-color: rgba(var(--global-text-color-light-rgb, 130, 130, 130), 0.03);
+}
+
+.bootstrap-table tbody tr:nth-child(even) {
+  background-color: rgba(var(--global-text-color-light-rgb, 130, 130, 130), 0.06);
+}
+
+/* Hover effect */
+.bootstrap-table tbody tr:hover {
+  background-color: var(--global-hover-color);
+  color: var(--global-hover-text-color);
+  transition: background-color 0.3s ease;
+}
+
+/* Cell padding and border */
+.bootstrap-table th,
+.bootstrap-table td {
+  padding: 0.25rem 0.5rem !important;
+  vertical-align: middle;
+  border-top: 1px solid var(--global-divider-color);
+}

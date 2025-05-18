@@ -7,6 +7,7 @@ tags:
 - android
 - plex
 - tautulli
+- self-hosting
 categories: software
 giscus_comments: true
 thumbnail: assets/img/plex-notification-thumb.png
