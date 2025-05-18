@@ -25,7 +25,7 @@ I've been running a self-hosted server for a while now as a hobby. This page con
 
 ### 📦 Software
 
-I'm running all my services in Docker containers (`docker compose`) on an Ubuntu server. Here's a selection of what I am currently running:
+I'm running all my services in Docker containers (`docker compose`) on an Ubuntu server. On this page you'll find a (rather large) selection of what I am currently running.
 
 #### Media Stack
 
@@ -60,7 +60,7 @@ Beyond meida, these services handle everything from networking to automation.
 
 #### Static websites
 
-I've also got a few websites running, e.g., [ledlijstje.nl](https://ledlijstje.nl), [barrybox.nl](https://barrybox.nl), [kratjes.net](https://kratjes.net), each using its own php container (or using Nginx Proxy Manager).
+I've also got a few websites running, e.g., [ledlijstje.nl](https://ledlijstje.nl), [barrybox.nl](https://barrybox.nl), [kratjes.net](https://kratjes.net), each using its own nginx/php container (or using Nginx Proxy Manager).
 
 ---
 
