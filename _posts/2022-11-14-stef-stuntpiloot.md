@@ -150,3 +150,10 @@ Both settings are saved into EEPROM.
         {% include video.liquid width="50%" path="https://www.youtube.com/embed/5MCIS7cAwmU" %}
     </div>
 </div>
+
+A real-life demonstration.
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid width="50%" path="assest/video/stef.mp4" class="img-fluid small-img rounded z-depth-1" controls=true%}
+    </div>
+</div>
