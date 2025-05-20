@@ -36,5 +36,5 @@ I was the (co-)supervisor of several students in their thesis projects at Utrech
 
 
 ###  Talks
-* Invited workshop, "TAPAS op tafel: anti-patronen blootleggen voor een transparante informatiehuishouding", [Werkconferentie Open Overheid](https://www.rijksorganisatieodi.nl/actueel/activiteiten/2025/05/21/werkconferentie-open-overheid), I-Partnerschap, The Hague, May, 2025
+* Workshop, "TAPAS op tafel: anti-patronen blootleggen voor een transparante informatiehuishouding", [Werkconferentie Open Overheid](https://www.rijksorganisatieodi.nl/actueel/activiteiten/2025/05/21/werkconferentie-open-overheid), I-Partnerschap, The Hague, May, 2025
 
