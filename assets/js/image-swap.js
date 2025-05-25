@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!img || !source) return;
 
   const image1 = '/assets/img/pf.jpg';
-  const image2 = '/assets/img/pf-lego-2.png'; // alternate image
+  const image2 = '/assets/img/pf-lego.png'; // alternate image
   const sound = new Audio('/assets/sound/click.mp3');
   let toggled = false;
 
