@@ -43,6 +43,8 @@ My media server setup consists of several interconnected services:
 | [SABnzbd](https://github.com/linuxserver/docker-sabnzbd) | Usenet downloader |
 | [Prowlarr](https://github.com/linuxserver/docker-prowlarr) | Manages indexers for the *arr apps |
 | [qBittorrentVPN](https://github.com/MarkusMcNugen/docker-qBittorrentvpn) | For torrent downloads (with built-in VPN protection) |
+| [Huntarr](https://github.com/plexguide/Huntarr.io) | For discovering missing items |
+| [Huntarr](https://github.com/flmorg/cleanuperr) | Removes unwanted or blocked files |
 
 #### Other services
 
@@ -64,4 +66,4 @@ I've also got a few websites running, e.g., [ledlijstje.nl](https://ledlijstje.n
 
 ---
 
-_Last updated: May 2025_
+_Last updated: June 2025_
