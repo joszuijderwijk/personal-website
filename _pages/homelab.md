@@ -44,7 +44,7 @@ My media server setup consists of several interconnected services:
 | [Prowlarr](https://github.com/linuxserver/docker-prowlarr) | Manages indexers for the *arr apps |
 | [qBittorrentVPN](https://github.com/MarkusMcNugen/docker-qBittorrentvpn) | For torrent downloads (with built-in VPN protection) |
 | [Huntarr](https://github.com/plexguide/Huntarr.io) | For discovering missing items |
-| [Huntarr](https://github.com/flmorg/cleanuperr) | Removes unwanted or blocked files |
+| [Cleanuperr](https://github.com/flmorg/cleanuperr) | Removes unwanted or blocked files |
 
 #### Other services
 
