@@ -59,6 +59,7 @@ Beyond media, these services handle everything from networking to automation.
 | [Mosquitto](https://github.com/eclipse-mosquitto/mosquitto) | Home automation communication (MQTT broker)|
 | [Watchtower](https://github.com/containrrr/watchtower) | Updates containers |
 | [phpMyAdmin](https://github.com/phpmyadmin/docker) | Manages databases |
+| [Kutt](https://github.com/thedevs-network/kutt) | Link shortener ([jos.to](https://jos.to))|
 
 #### Static websites
 
