@@ -7,6 +7,8 @@ nav: true
 ---
 As a PhD candidate at [Utrecht University](https://www.uu.nl/en/organisation/department-of-information-and-computing-sciences), I research digital innovations that enhance government transparency. Under the supervision of Prof. [Hajo Reijers](https://www.uu.nl/medewerkers/HAReijers), Prof. [Tanja van der Lippe](https://www.uu.nl/medewerkers/tvanderlippe), and Dr. [Iris Beerepoot](https://www.irisbeerepoot.com/), I investigate how government agencies can operate transparently in today's digital information environment with its complex processes and massive information flows. Through a multidisciplinary approach combining computer science, sociology, and public administration, I analyze actual workplace behavior through document management data to identify patterns that impact transparency. Working together with the [Ministry of Infrastructure and Water Management](https://www.government.nl/ministries/ministry-of-infrastructure-and-water-management), I aim to develop scientific methods and practical tools that help civil servants effectively manage information.
 
+I am affiliated with the [AI Lab for Public Services](https://www.uu.nl/en/research/ai-labs/ai-lab-for-the-public-services) and the [Future of Work Hub[(https://www.uu.nl/en/research/institutions-for-open-societies/future-of-work).
+
 
 ### Publications
 An up-to-date list is available on my [Google Scholar](https://scholar.google.com/citations?user=f7SM9VYAAAAJ&hl=nl).
@@ -17,8 +19,12 @@ An up-to-date list is available on my [Google Scholar](https://scholar.google.co
 
 </div>
 
+#### Theses
+* [MSc thesis](https://studenttheses.uu.nl/handle/20.500.12932/44488) on interactive visualisation of multivariate spatiotemporal data — formalised a computational problem in glyph placement, proposing algorithms and an interactive tool prototype;
+* [BSc thesis](https://studenttheses.uu.nl/handle/20.500.12932/37208) on on learnability of certain stress systems in the Chomskyan Principles & Parameters framework.
+
 ### Teaching
-I was involved with the follownig courses at Utrecht University:
+I have been involved with the following courses at Utrecht University:
 * `KI1V13001` Introduction to Logic (2017 --- 2020) [📖 course material](https://github.com/UtrechtUniversity/KI1V13001-Inleiding-Logica)
 * `INFOB1MNP` Modelling & Programming (2016 --- 2019)
 * `KI1V13004` Introduction to Linguistics (2017, 2021)
