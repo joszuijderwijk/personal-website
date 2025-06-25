@@ -18,7 +18,7 @@ An up-to-date list is available on my [Google Scholar](https://scholar.google.co
 </div>
 
 ### Teaching
-I worked as a TA for the following courses
+I was involved with the follownig courses at Utrecht University:
 * `KI1V13001` Introduction to Logic (2017 --- 2020) [📖 course material](https://github.com/UtrechtUniversity/KI1V13001-Inleiding-Logica)
 * `INFOB1MNP` Modelling & Programming (2016 --- 2019)
 * `KI1V13004` Introduction to Linguistics (2017, 2021)
