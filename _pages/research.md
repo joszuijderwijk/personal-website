@@ -7,7 +7,7 @@ nav: true
 ---
 As a PhD candidate at [Utrecht University](https://www.uu.nl/en/organisation/department-of-information-and-computing-sciences), I research digital innovations that enhance government transparency. Under the supervision of Prof. [Hajo Reijers](https://www.uu.nl/medewerkers/HAReijers), Prof. [Tanja van der Lippe](https://www.uu.nl/medewerkers/tvanderlippe), and Dr. [Iris Beerepoot](https://www.irisbeerepoot.com/), I investigate how government agencies can operate transparently in today's digital information environment with its complex processes and massive information flows. Through a multidisciplinary approach combining computer science, sociology, and public administration, I analyze actual workplace behavior through document management data to identify patterns that impact transparency. Working together with the [Ministry of Infrastructure and Water Management](https://www.government.nl/ministries/ministry-of-infrastructure-and-water-management), I aim to develop scientific methods and practical tools that help civil servants effectively manage information.
 
-I am affiliated with the [AI Lab for Public Services](https://www.uu.nl/en/research/ai-labs/ai-lab-for-the-public-services) and the [Future of Work Hub[(https://www.uu.nl/en/research/institutions-for-open-societies/future-of-work).
+I am affiliated with the [AI Lab for Public Services](https://www.uu.nl/en/research/ai-labs/ai-lab-for-the-public-services) and the [Future of Work Hub](https://www.uu.nl/en/research/institutions-for-open-societies/future-of-work).
 
 
 ### Publications
