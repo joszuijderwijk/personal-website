@@ -20,8 +20,8 @@ An up-to-date list is available on my [Google Scholar](https://scholar.google.co
 </div>
 
 #### Theses
-* [MSc thesis](https://studenttheses.uu.nl/handle/20.500.12932/44488) on interactive visualisation of multivariate spatiotemporal data — formalised a computational problem in glyph placement, proposing algorithms and an interactive tool prototype;
-* [BSc thesis](https://studenttheses.uu.nl/handle/20.500.12932/37208) on on learnability of certain stress systems in the Principles & Parameters framework.
+* [MSc thesis](https://studenttheses.uu.nl/handle/20.500.12932/44488) on interactive visualisation of multivariate spatiotemporal data; formalised a computational problem in glyph placement;
+* [BSc thesis](https://studenttheses.uu.nl/handle/20.500.12932/37208) on learnability of certain stress systems using pinciples and parameters.
 
 ### Teaching
 I have been involved with the following courses at Utrecht University:
