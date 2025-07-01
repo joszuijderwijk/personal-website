@@ -36,9 +36,7 @@ My media server setup consists of several interconnected services:
 | [Plex](https://github.com/linuxserver/docker-plex) | Personal Netflix |
 | [Radarr](https://github.com/linuxserver/docker-radarr) | Manages my movies |
 | [Sonarr](https://github.com/linuxserver/docker-sonarr) | Manages my series |
-| [Readarr](https://github.com/linuxserver/docker-readarr) | Manages my e-books |
 | [Bazarr](https://github.com/linuxserver/docker-bazarr) | Manages subtitles |
-| [Calibre](https://github.com/linuxserver/docker-calibre) + [Calibre-Web](https://github.com/linuxserver/docker-calibre-web) | For accessing my e-books |
 | [Tautulli](https://github.com/linuxserver/docker-tautulli) | Stats for Plex |
 | [SABnzbd](https://github.com/linuxserver/docker-sabnzbd) | Usenet downloader |
 | [Prowlarr](https://github.com/linuxserver/docker-prowlarr) | Manages indexers for the *arr apps |
