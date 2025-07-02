@@ -66,4 +66,4 @@ I've also got a few websites running, e.g., [ledlijstje.nl](https://ledlijstje.n
 
 ---
 
-_Last updated: June 2025_
+_Last updated: July 2025_
