@@ -1431,3 +1431,29 @@ ninja-keys::part(ninja-input-wrapper) {
   vertical-align: middle;
   border-top: 1px solid var(--global-divider-color);
 }
+
+// poke
+.poke-button-small {
+    font-size: 0.85rem;
+    color: #ddd;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    padding: 0.15rem 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+    transition: color 0.3s, border-color 0.3s;
+    vertical-align: middle;
+  }
+  .poke-button-small:hover {
+    color: white;
+    border-color: white;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .poke-button-small svg {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+  }

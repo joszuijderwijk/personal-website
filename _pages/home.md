@@ -20,5 +20,5 @@ There are many things that have my interest! I particularly like [electronics](b
 
 If you'd like to get in touch, please visit my [contact page](contact).
 
-{% include iot-devices.liquid shields=false %}
+{% include iot-devices.liquid shields=false %} {% include poke.liquid %}
 <script src="/assets/js/image-swap.js"></script>
