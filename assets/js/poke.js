@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         headers: {
           'Content-Type': 'application/json',
           'X-User-Agent': 'personal-website',
-          'X-Referer': window.location.href
+          'X-Referer': document.title
         },
         body: JSON.stringify({ action: 'poke' })
       });
@@ -40,15 +40,14 @@ document.addEventListener('DOMContentLoaded', function () {
       // Set cooldown in localStorage
       localStorage.setItem(POKE_STORAGE_KEY, Date.now().toString());
 
-      alert('Poke sent! Server responded: ' + result.message);
+      alert('Poke sent!');
 
       // Disable the button and update text
       pokeButton.disabled = true;
       pokeButton.textContent = `Poked (wait ${COOLDOWN_HOURS}h)`;
     } catch (err) {
       console.error(err);
-      alert(err);
-      alert('Failed to send poke.');
+      alert('Failed to send poke. :(');
     }
   });
 });
