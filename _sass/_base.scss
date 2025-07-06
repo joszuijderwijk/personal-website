@@ -1448,6 +1448,13 @@ ninja-keys::part(ninja-input-wrapper) {
   transition: color 0.3s, border-color 0.3s, background-color 0.3s;
 }
 
+.poke-icon{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+    filter: brightness(0) invert(var(--global-inversion));
+}
+
 .poke-button-small:hover {
   color: var(--global-hover-text-color);
   border-color: var(--global-hover-text-color);

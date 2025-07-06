@@ -30,6 +30,8 @@
   --global-newsletter-text-color: #{$black-color};
   --global-alert-text-color: #{$black-color};
 
+  --global-inversion: 0.7;
+
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
@@ -99,6 +101,8 @@ html[data-theme="dark"] {
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
   --global-alert-text-color: #{$black-color};
+
+  --global-inversion: 1;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
