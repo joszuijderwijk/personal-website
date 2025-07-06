@@ -8,6 +8,7 @@ tags:
 - plex
 - tautulli
 - self-hosting
+- pushover
 categories: software
 giscus_comments: true
 thumbnail: assets/img/plex-notification-thumb.png

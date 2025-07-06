@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   const pokeButton = document.getElementById('poke-button');
+  const sound = new Audio('/assets/sound/poke.mp3');
   if (!pokeButton) return;
 
   const POKE_STORAGE_KEY = 'lastPokeTime';
@@ -29,13 +30,17 @@ document.addEventListener('DOMContentLoaded', function () {
         headers: {
           'Content-Type': 'application/json',
           'X-User-Agent': 'personal-website',
-          'X-Referer': document.title
+          'X-Referer': window.location.pathname
         },
         body: JSON.stringify({ action: 'poke' })
       });
 
       if (!response.ok) throw new Error('Request failed');
       const result = await response.json();
+
+      // Play sound
+      sound.currentTime = 0;
+      sound.play();
 
       // Set cooldown in localStorage
       localStorage.setItem(POKE_STORAGE_KEY, Date.now().toString());
