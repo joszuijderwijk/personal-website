@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!pokeButton) return;
 
   const POKE_STORAGE_KEY = 'lastPokeTime';
-  const COOLDOWN_HOURS = 24;
+  const COOLDOWN_MINUTES = 1;
 
   // Check if the button should be disabled
   function updateButtonState() {
@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const lastTime = new Date(parseInt(lastPoke, 10));
     const now = new Date();
-    const hoursDiff = (now - lastTime) / (1000 * 60 * 60);
+    const minutesDiff = (now - lastTime) / (1000 * 60);
 
-    if (hoursDiff < COOLDOWN_HOURS) {
+    if (minutesDiff < COOLDOWN_MINUTES) {
       pokeButton.disabled = true;
-      pokeButton.textContent = `Poked (wait ${Math.ceil(COOLDOWN_HOURS - hoursDiff)}h)`;
+      pokeButton.textContent = `Poked (wait ${Math.ceil(COOLDOWN_MINUTES - minutesDiff)}m)`;
     }
   }
 
