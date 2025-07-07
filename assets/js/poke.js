@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // Disable the button and update text
       pokeButton.disabled = true;
-      pokeButton.textContent = `Poked (wait ${COOLDOWN_HOURS}h)`;
+      pokeButton.textContent = `Poked (wait ${COOLDOWN_MINUTES}m)`;
     } catch (err) {
       console.error(err);
       alert('Failed to send poke. :(');
