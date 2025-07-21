@@ -14,7 +14,7 @@ images:
 
 My sister got married this weekend! 💍 To give the newlywed couple a keepsake (besides their rings of course), I thought a custom LEGO set would be really nice. The groom happens to be a LEGO fan too.
 
- The box art is based on the actual wedding location. The design was based on a [2018 LEGO set](https://www.lego.com/en-us/service/building-instructions/40197) (which is completely sold out). Using its publicly available instructions, we rebuilt the set using [Bricklink Studio](https://www.bricklink.com/v3/studio/download.page) and ordered the parts.
+ The box art is based on the actual wedding location. The design was based on a [2018 LEGO set](https://www.lego.com/en-us/service/building-instructions/40197) (which is completely sold out). Using its publicly available instructions, I rebuilt the set using [Bricklink Studio](https://www.bricklink.com/v3/studio/download.page) and ordered the parts.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
