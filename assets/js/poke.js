@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
       pokeButton.textContent = `Poked (wait ${COOLDOWN_MINUTES}m)`;
     } catch (err) {
       console.error(err);
-      alert('Failed to send poke. :(');
+      alert('Failed to send poke :(');
     }
   });
 });
