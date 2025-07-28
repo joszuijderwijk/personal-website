@@ -16,7 +16,7 @@ published: true
 
 I've been sharing some of my MOCs (My Own Creations) for a while now, originally making them as personal gifts. When LEGO released their postcard series, I thought Utrecht deserved its own version too. Choosing which beautiful and distinctive architecture to include was not easy (I tried really hard to fit in the [teapot](https://nl.wikipedia.org/wiki/Celestial_Teapot)).
 
-I've also been wanting to sell something online for a while, inspired by [tinyprojects.dev](https://tinyprojects.dev/). This seemed like the perfect opportunity. I launched an Etsy webshop (called [**BerendBlokje**](https://berendblokje.nl)) offering the digital instructions, sticker sheet, BrickLink parts list and tutorial on how to order the parts yourself (est. price €26). The response has been amazing: I even got featured by a newspaper on the first day I launched my webshop!
+I've also been wanting to sell something online for a while, inspired by [tinyprojects.dev](https://tinyprojects.dev/). This seemed like the perfect opportunity. I launched an Etsy webshop (called [BerendBlokje](https://berendblokje.nl)) offering the digital instructions, sticker sheet, BrickLink parts list and tutorial on how to order the parts yourself (est. price €26). The response has been amazing: I even got featured by a newspaper on the first day I launched my webshop!
 
 Looking ahead, I'm considering to offer physical sets if there is enough demand. That is however a significant investment (both cost and timewise). I am also planning to release more MOCs!
 
