@@ -14,7 +14,7 @@ published: true
 {% include figure.liquid loading="eager" path="assets/img/berendblokje-header.png" class="img-fluid rounded z-depth-1" %}
 
 <div class="alert alert-danger" role="alert" markdown="1">
-<i class="fa-solid fa-triangle-exclamation fa-xl"></i> <b>Update!</b> My Etsy shop was suspended without explanation and they won't respond. I've launched my own website instead. If your Etsy order didn't go through, please email me!
+<i class="fa-solid fa-triangle-exclamation fa-xl"></i> <b>Update!</b> My Etsy shop was suspended without explanation and they won't respond. I've launched my own [webshop](https://berendblokje.nl) instead. If your Etsy order didn't go through, please email me!
 </div>
 
 I've been sharing some of my MOCs (My Own Creations) for a while now, originally making them as personal gifts. When LEGO released their postcard series, I thought Utrecht deserved its own version too. Choosing which beautiful and distinctive architecture to include was not easy (I tried really hard to fit in the [teapot](https://nl.wikipedia.org/wiki/Celestial_Teapot)).
