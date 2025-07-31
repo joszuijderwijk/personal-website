@@ -19,7 +19,8 @@ I've also been wanting to sell something online for a while, inspired by [tinypr
 
 Looking ahead, I'm considering to offer physical sets if there is enough demand. That is however a significant investment (both cost and timewise). I am also planning to release more MOCs!
 
-Update: Initiatially I launched an [Etsy webshop](https://berendblokje.etsy.com), which got suspended on the first day without any reason. After a few days it magically (and without notification) went back up. After some online reading, I found that this is a common thing to do for Etsy... For the time being I will keep the Etsy account, but I will mainly focus on my own webshop.
+Update: Initiatially I launched an [Etsy webshop](https://berendblokje.etsy.com), which got suspended on the first day without any reason. After a few days it magically went back up. After some online reading, I found that this is a common thing to do for Etsy while verifying new shops. Oh well. For the time being I will keep the Etsy account, but I will mainly focus on my own webshop. I also sell sticker sheets now!
+
 ---
 👉 The set was featured in the [Algemeen Dagblad](https://www.ad.nl/utrecht/dankzij-jos-27-kan-iedereen-nu-de-utrechtse-skyline-van-lego-bouwen~a909f48d7/) (AD).
 
