@@ -21,10 +21,10 @@ Looking ahead, I'm considering to offer physical sets if there is enough demand.
 
 Update: Initiatially I launched an [Etsy webshop](https://berendblokje.etsy.com), which got suspended on the first day without any reason. After a few days it magically went back up. After some online reading, I found that this is a common thing to do for Etsy while verifying new shops. Oh well. For the time being I will keep the Etsy account, but I will mainly focus on my own webshop. I also sell sticker sheets now!
 
+Questions or interested? Check out [berendblokje.nl](https://berendblokje.nl) or email me at `info [at] berendblokje [dot] nl`.
+
 ---
 👉 The set was featured in the [Algemeen Dagblad](https://www.ad.nl/utrecht/dankzij-jos-27-kan-iedereen-nu-de-utrechtse-skyline-van-lego-bouwen~a909f48d7/) (AD).
-
-Questions or interested? Check out [berendblokje.nl](https://berendblokje.nl) or email me at `info [at] berendblokje [dot] nl`.
 
 ---
 <small>DISCLAIMER: This product is not affiliated with, endorsed by, or sponsored by The LEGO Group. LEGO® is a trademark of the LEGO Group, which does not sponsor, authorize or endorse this product.</small>
