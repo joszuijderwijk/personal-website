@@ -31,6 +31,7 @@ I have been involved with the following courses at Utrecht University:
 * `TW3V19002` Language and Computation (2022)
 * `INFO3BIT` Interaction Technology (2023) [📖 course material](https://herlaar.net/b3it/start-here/about-this-site/)
 * `INFOB1PROM` Process Modelling (2025)
+* `INFOBAVA` Academic Skills (2025)
 
 ### Supervision
 
