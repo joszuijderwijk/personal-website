@@ -23,6 +23,8 @@ Update: Initiatially I launched an [Etsy webshop](https://berendblokje.etsy.com)
 
 Questions or interested? Check out [berendblokje.nl](https://berendblokje.nl) or email me at `info [at] berendblokje [dot] nl`.
 
+You can follow me at [Facebook](https://www.facebook.com/people/Berend-Blokje/61578328245293/) or [Instagram](https://www.instagram.com/berendblokje/).
+
 ---
 👉 The set was featured in the [Algemeen Dagblad](https://www.ad.nl/utrecht/dankzij-jos-27-kan-iedereen-nu-de-utrechtse-skyline-van-lego-bouwen~a909f48d7/) (AD).
 
