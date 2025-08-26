@@ -37,7 +37,7 @@ I have been involved with the following courses at Utrecht University:
 
 I was the supervisor of several students in their thesis projects at Utrecht University (sorted in reverse chronological order).
 
-1. **Bonne van Rijzingen** (2024): "The Potential Impact of Intelligent Automation on the European Labor Market", BSc thesis
+1. **Bonne van Rijzingen** (2025): "The Potential Impact of Intelligent Automation on the European Labor Market", BSc thesis
 2. **Bastiaan van Gilst** (2024): "Comparing Location-Specific Factors in Digital Adoption at Dutch Prisons", MSc thesis
 
 
