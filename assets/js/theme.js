@@ -56,6 +56,10 @@ let applyTheme = () => {
     setVegaLiteTheme(theme);
   }
 
+  // if Plotly is not defined, do nothing
+  if (typeof Plotly !== "undefined") {
+    setPlotlyTheme(theme);
+  }
   document.documentElement.setAttribute("data-theme", theme);
 
   // Add class to tables.
