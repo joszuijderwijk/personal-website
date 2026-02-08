@@ -26,7 +26,7 @@ Below are two screenshots of the mobile view of the app, presenting a rather tem
     <div class="col-sm-6 mt-3 mt-md-0" style="width:50%;">
         {% include figure.liquid path="assets/img/moviematch-screenshot-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0"  style="width:50%;">
+    <div class="col-sm-6 mt-3 mt-md-0" style="width:50%;">
         {% include figure.liquid path="assets/img/moviematch-screenshot-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
