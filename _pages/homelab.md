@@ -43,6 +43,7 @@ My media server setup consists of several interconnected services:
 | [qBittorrentVPN](https://github.com/MarkusMcNugen/docker-qBittorrentvpn) | For torrent downloads (with built-in VPN protection) |
 | [Huntarr](https://github.com/plexguide/Huntarr.io) | For discovering missing items |
 | [Cleanuperr](https://github.com/flmorg/cleanuperr) | Removes unwanted or blocked files |
+| [MovieMatch](https://github.com/joszuijderwijk/moviematch) | Helps selecting which movie to watch |
 
 #### Other services
 
