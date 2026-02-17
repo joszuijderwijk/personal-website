@@ -60,6 +60,7 @@ Beyond media, these services handle everything from networking to automation.
 | [phpMyAdmin](https://github.com/phpmyadmin/docker) | Manages databases |
 | [Kutt](https://github.com/thedevs-network/kutt) | Link shortener ([jos.to](https://jos.to))|
 | [HedgeDoc](https://github.com/hedgedoc/hedgedoc) | Markdown editor |
+| [Beszel](https://github.com/henrygd/beszel) | Server monitor |
 
 #### Static websites
 
