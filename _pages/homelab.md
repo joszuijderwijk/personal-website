@@ -41,7 +41,6 @@ My media server setup consists of several interconnected services:
 | [SABnzbd](https://github.com/linuxserver/docker-sabnzbd) | Usenet downloader |
 | [Prowlarr](https://github.com/linuxserver/docker-prowlarr) | Manages indexers for the *arr apps |
 | [qBittorrentVPN](https://github.com/MarkusMcNugen/docker-qBittorrentvpn) | For torrent downloads (with built-in VPN protection) |
-| [Huntarr](https://github.com/plexguide/Huntarr.io) | For discovering missing items |
 | [Cleanuperr](https://github.com/flmorg/cleanuperr) | Removes unwanted or blocked files |
 | [MovieMatch](https://github.com/joszuijderwijk/moviematch) | Helps selecting which movie to watch |
 
@@ -56,7 +55,7 @@ Beyond media, these services handle everything from networking to automation.
 | [Node-RED](https://github.com/node-red/node-red) | Home automation flows |
 | [Umami](https://github.com/umami-software/umami) | Privacy-focused analytics for my websites |
 | [Mosquitto](https://github.com/eclipse-mosquitto/mosquitto) | Home automation communication (MQTT broker)|
-| [Watchtower](https://github.com/containrrr/watchtower) | Updates containers |
+| [Watchtower](https://github.com/nicholas-fedor/watchtower) | Updates containers |
 | [phpMyAdmin](https://github.com/phpmyadmin/docker) | Manages databases |
 | [Kutt](https://github.com/thedevs-network/kutt) | Link shortener ([jos.to](https://jos.to))|
 | [HedgeDoc](https://github.com/hedgedoc/hedgedoc) | Markdown editor |
