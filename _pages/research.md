@@ -30,8 +30,8 @@ I have been involved with the following courses at Utrecht University:
 * `KI1V13004` Introduction to Linguistics (2017, 2021)
 * `TW3V19002` Language and Computation (2022)
 * `INFO3BIT` Interaction Technology (2023) [📖 course material](https://herlaar.net/b3it/start-here/about-this-site/)
-* `INFOB1PROM` Process Modelling (2025)
-* `INFOBAVA` Academic Skills (2025)
+* `INFOB1PROM` Process Modelling (2025 --- 2026)
+* `INFOBAVA` Academic Skills (2025 --- 2026)
 
 ### Supervision
 
@@ -45,5 +45,14 @@ I was the supervisor of several students in their thesis projects at Utrecht Uni
 
 
 ###  Talks
-* Workshop, "TAPAS op tafel: anti-patronen blootleggen voor een transparante informatiehuishouding", [Werkconferentie Open Overheid](https://www.rijksorganisatieodi.nl/actueel/activiteiten/2025/05/21/werkconferentie-open-overheid), I-Partnerschap, The Hague, May, 2025
-
+* Talk, Faculty Day, Faculty of Science, Universiteit Utrecht, Utrecht, September 2026
+* Discussion, Gesprekken op Plekken, Utrecht, June 2026
+* Talk + Panel Member + Workshop, "Zicht op Openheid", [Open Donderdag XL](https://www.open-overheid.nl/actueel/nieuws/2026/04/21/open-donderdag-xl-de-digitale-transformatie-hoe-het-wel-moet/), Rijksoverheid, The Hague, June 2026
+* Poster, [Utrecht AI Event: Beyond Technology](https://www.uu.nl/agenda/utrecht-ai-event-beyond-technology), TivoliVredenburg, Utrecht, March 2026
+* Talk, [NIG](https://www.nigovernance.nl/)@UU, Utrecht, December 2025
+* Talk, "TAPAS: A Pattern-Based Approach to Assessing Government Transparency", International Conference on Electronic Government, Krems AU, September 2025
+* Workshop, "TAPAS op tafel: anti-patronen blootleggen voor een transparante informatiehuishouding", [Werkconferentie Open Overheid](https://www.rijksorganisatieodi.nl/actueel/activiteiten/2025/05/21/werkconferentie-open-overheid), Amersfoort, May 2025
+* Talk, Dataweek Tweede Kamer, The Hague, April 2025
+* Talk, "Digitale recepten voor een open overheid", IenE, Ministry of Infrastructure and Water Management, The Hague, March 2025
+* Talk, "Informatiesystemen voor een open overheid", UHasselt, Beleidsinformatica, Hassel BE, June 2024
+* Poster, [ODI](https://www.rijksorganisatieodi.nl/)@UU, Utrecht, March 2024
