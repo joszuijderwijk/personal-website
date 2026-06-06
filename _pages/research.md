@@ -51,6 +51,7 @@ I was the supervisor of several students in their thesis projects at Utrecht Uni
 * Poster, [Utrecht AI Event: Beyond Technology](https://www.uu.nl/agenda/utrecht-ai-event-beyond-technology), TivoliVredenburg, Utrecht, March 2026
 * Talk, [NIG](https://www.nigovernance.nl/)@UU, Utrecht, December 2025
 * Talk, "TAPAS: A Pattern-Based Approach to Assessing Government Transparency", International Conference on Electronic Government, Krems AU, September 2025
+* Workshop, AI4WPM, Ministry of Economic Affairs, Utrecht, June 2024
 * Workshop, "TAPAS op tafel: anti-patronen blootleggen voor een transparante informatiehuishouding", [Werkconferentie Open Overheid](https://www.rijksorganisatieodi.nl/actueel/activiteiten/2025/05/21/werkconferentie-open-overheid), Amersfoort, May 2025
 * Talk, Dataweek Tweede Kamer, The Hague, April 2025
 * Talk, "Digitale recepten voor een open overheid", IenE, Ministry of Infrastructure and Water Management, The Hague, March 2025
