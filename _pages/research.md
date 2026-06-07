@@ -21,7 +21,7 @@ An up-to-date list is available on my [Google Scholar](https://scholar.google.co
 
 #### Theses
 * [MSc thesis](https://studenttheses.uu.nl/handle/20.500.12932/44488) on interactive visualisation of multivariate spatiotemporal data; formalised a computational problem in glyph placement;
-* [BSc thesis](https://studenttheses.uu.nl/handle/20.500.12932/37208) on learnability of certain stress systems using pinciples and parameters.
+* [BSc thesis](https://studenttheses.uu.nl/handle/20.500.12932/37208) on learnability of certain stress systems using principles and parameters.
 
 ### Teaching
 I have been involved with the following courses at Utrecht University:
@@ -35,7 +35,7 @@ I have been involved with the following courses at Utrecht University:
 
 ### Supervision
 
-I was the supervisor of several students in their thesis projects at Utrecht University (sorted in reverse chronological order).
+I have supervised several student thesis projects at Utrecht University (sorted in reverse chronological order).
 
 1. **Kris Andriessen** (2026): "Van blackbox naar grip: Een onderzoek naar de inzetbaarheid van Explainable Artificial Intelligence voor documentclassificatie binnen het ministerie van Infrastructuur en Waterstaat", BSc thesis
 2. **Yorick Spekle** (2026): "Detecting the AI Ghost Writers of Politicians: A Dutch Case Study", BSc thesis
@@ -43,17 +43,17 @@ I was the supervisor of several students in their thesis projects at Utrecht Uni
 4. **Bastiaan van Gilst** (2024): "Comparing Location-Specific Factors in Digital Adoption at Dutch Prisons", MSc thesis
 
 
-
 ###  Talks
-* Talk, Faculty Day, Faculty of Science, Universiteit Utrecht, Utrecht, September 2026
+* Talk, Faculty Day, Faculty of Science, Utrecht University, Utrecht, September 2026
+* Talk, "Shadows of Transparency: Signaling Transparency-Impeding Behavior Using Public Data", International Conference on Electronic Government, Athens, Greece, September 2026
 * Discussion, Gesprekken op Plekken, Utrecht, June 2026
 * Talk + Panel Member + Workshop, "Zicht op Openheid", [Open Donderdag XL](https://www.open-overheid.nl/actueel/nieuws/2026/04/21/open-donderdag-xl-de-digitale-transformatie-hoe-het-wel-moet/), Rijksoverheid, The Hague, June 2026
 * Poster, "AI4WPM", [Utrecht AI Event: Beyond Technology](https://www.uu.nl/agenda/utrecht-ai-event-beyond-technology), TivoliVredenburg, Utrecht, March 2026
 * Talk, [NIG](https://www.nigovernance.nl/)@UU, Utrecht, December 2025
-* Talk, "TAPAS: A Pattern-Based Approach to Assessing Government Transparency", International Conference on Electronic Government, Krems AU, September 2025
-* Workshop, "AI4WPM", Ministry of Economic Affairs, Utrecht, June 2024
+* Talk, "TAPAS: A Pattern-Based Approach to Assessing Government Transparency", International Conference on Electronic Government, Krems an der Donau, Austria, September 2025
+* Workshop, "AI4WPM", Ministry of Economic Affairs, Utrecht, June 2025
 * Workshop, "TAPAS op tafel: anti-patronen blootleggen voor een transparante informatiehuishouding", [Werkconferentie Open Overheid](https://www.rijksorganisatieodi.nl/actueel/activiteiten/2025/05/21/werkconferentie-open-overheid), Amersfoort, May 2025
 * Talk, Dataweek Tweede Kamer, The Hague, April 2025
 * Talk, "Digitale recepten voor een open overheid", IenE, Ministry of Infrastructure and Water Management, The Hague, March 2025
-* Talk, "Informatiesystemen voor een open overheid", UHasselt, Beleidsinformatica, Hassel BE, June 2024
+* Talk, "Informatiesystemen voor een open overheid", UHasselt, Beleidsinformatica, Hassel, Belgium, June 2024
 * Poster, [ODI](https://www.rijksorganisatieodi.nl/)@UU, Utrecht, March 2024
