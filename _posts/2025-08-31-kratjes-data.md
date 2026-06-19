@@ -14,7 +14,7 @@ published: false
 chart:
   plotly: true
 ---
-Ik heb een Bierklok™ gebouwd (een [digitale](../kratjes) en een [fysieke](../bierklok)) die met de wijzers het merk pils (kratjes) in de bonus aangeeft voor een supermarkt naar keuze. Reuze handig apparaat, ook al hebben supermarktaanbiedingen nu een plafond van 25%. Ook blijkt de jeugd van tegenwoordig [pils links te laten liggen](https://www.trouw.nl/duurzaamheid-economie/). Ik heb sinds juli 2021 de aanbiedingen wel bijgehouden. Laten we eens kijken of er nog wat interessants in de data te vinden is.
+In 2021 heb ik een Bierklok™ gebouwd (een [digitale](../kratjes) en een [fysieke](../bierklok)) die met de wijzers het merk pils (kratjes) in de bonus aangeeft voor een supermarkt naar keuze. Reuze handig apparaat, als het in je interieur past. Toen ik het maakte was er nog geen aanbiedingsplafond van 25% op kratjes. Ik heb sinds juli 2021 de aanbiedingen wel bijgehouden. Laten we eens kijken of er nog wat interessants in de data te vinden is.
 
 
 ```plotly
