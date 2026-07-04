@@ -45,7 +45,7 @@ I have supervised several student thesis projects at Utrecht University (sorted 
 
 
 ###  Talks
-* Outreach, Gesprekken op Plekken, Utrecht, November 2026
+* Outreach, [Gesprekken op Plekken](https://www.uu.nl/nieuws/het-doet-iets-met-mensen-als-de-universiteit-toenadering-zoekt), Utrecht, November 2026
 * Talk, Faculty Day, Faculty of Science, Utrecht University, Utrecht, September 2026
 * Talk, "Shadows of Transparency: Signaling Transparency-Impeding Behavior Using Public Data", EGOV, Athens, Greece, September 2026
 * Talk + Panel Member + Workshop, "Zicht op Openheid", [Open Donderdag XL](https://www.open-overheid.nl/actueel/nieuws/2026/04/21/open-donderdag-xl-de-digitale-transformatie-hoe-het-wel-moet/), Rijksoverheid, The Hague, June 2026
