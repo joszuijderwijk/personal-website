@@ -51,7 +51,7 @@ Beyond media, these services handle everything from networking to automation.
 | Service | Description |
 |---------|-------------|
 | [Nextcloud](https://github.com/nextcloud) | Personal DropBox |
-| [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Network configuration |
+| [Caddy](https://github.com/caddyserver/caddy) | Webserver |
 | [Node-RED](https://github.com/node-red/node-red) | Home automation flows |
 | [Umami](https://github.com/umami-software/umami) | Privacy-focused analytics for my websites |
 | [Mosquitto](https://github.com/eclipse-mosquitto/mosquitto) | Home automation communication (MQTT broker)|
@@ -63,8 +63,8 @@ Beyond media, these services handle everything from networking to automation.
 
 #### Static websites
 
-I've also got a few websites running, e.g., [ledlijstje.nl](https://ledlijstje.nl), [barrybox.nl](https://barrybox.nl), [kratjes.net](https://kratjes.net), each using their own nginx/php container (or using Nginx Proxy Manager).
+I've also got some websites running, to name a few, [ledlijstje.nl](https://ledlijstje.nl), [barrybox.nl](https://barrybox.nl), [kratjes.net](https://kratjes.net).
 
 ---
 
-_Last updated: February 2026_
+_Last updated: August 2026_
