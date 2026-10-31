@@ -17,6 +17,6 @@ Nadat ik al eerder LEGO-setjes van Utrecht gemaakt had, werd het ook wel eens ti
 
 In het ontwerp zitten natuurlijk de museumwerf, de Barbarakerk en de Platte Brug. Dat die witte brug zo heet, ontdekte ik pas tijdens het maken. Ik twijfelde nog over Nieuw-Vreeswijk, het schippersinternaat of een van de vele andere bruggetjes, maar koos uiteindelijk voor Huis De Wiers, toch ook een niet alledaags gebouw. Op de achtergrond zie je, met een beetje goede wil, de Lekdijk.
 
-Naast de Platte Brug staat al zolang ik me kan herinneren een klein huisje met de letters "Herensalon Sjaak". Ik ben er zelf nooit geknipt, maar heb er ontelbare keren langsgefietst. Voor mij hoort het bij de skyline van Vreeswijk. Een paar weken geleden las ik dat Sjaak na 57 jaar (!) zijn schaar aan de wilgen heeft gehangen. Als eerbetoon staat hij nu pontificaal vooraan (ook al gaat het op deze schaal maar om twee blokjes).
+Naast de Platte Brug staat al zolang ik me kan herinneren een klein huisje met de letters "Herensalon Sjaak". Ik ben er zelf nooit geknipt, maar ben er ontelbare keren langsgefietst. Voor mij hoort het dan ook bij de skyline van Vreeswijk. Een paar weken geleden las ik dat Sjaak na 57 jaar (!) zijn schaar aan de wilgen heeft gehangen. Als eerbetoon staat hij nu pontificaal vooraan (ook al gaat het op deze schaal maar om twee blokjes).
 
 De set vind je in mijn [webshop](https://berendblokje.nl).
